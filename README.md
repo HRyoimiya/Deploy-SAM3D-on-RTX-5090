@@ -17,6 +17,8 @@ Most libraries work out of the box, but the following components must be manuall
 
 ## Setup Python Environment
 
+⚠️ **You need to download the SAM3D code and pretrained weights before proceeding.**
+
 ### 1. Create conda environment and install some default SAM3D dependencies
 
 ```bash
