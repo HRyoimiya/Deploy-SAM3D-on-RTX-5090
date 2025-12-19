@@ -69,7 +69,7 @@ pip install xformers==0.0.30
 
 ```
 ## PyTorch3D Wheel Download
-👉 [Download pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl](https://github.com/HRyoimiya/Deploy-SAM3D-on-RTX-5090/releases/download/pytorch3d-whl/pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl)
+👉 [Download pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl]([https://github.com/HRyoimiya/Deploy-SAM3D-on-RTX-5090/releases/download/pytorch3d-whl/pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl](https://github.com/HRyoimiya/Deploy-SAM3D-on-RTX-5090/releases/download/pytorch3d-whl/pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl))
 
 
 ## Verify Installation
