@@ -8,6 +8,7 @@ Most libraries work out of the box, but the following components must be manuall
 - PyTorch3D
 - kaolin
 - xFormers
+- gsplat
 
 ---
 
@@ -55,9 +56,11 @@ pip install https://github.com/HRyoimiya/Deploy-SAM3D-on-RTX-5090/releases/downl
 ### 4. Install Inference Dependencies (including kaolin, gsplat, seaborn and gradio)
 ```bash
 # You can install them separately
-pip install gsplat@git+https://github.com/nerfstudio-project/gsplat.git@2323de5905d5e90e035f792fe65bad0fedd413e7
 pip install seaborn==0.13.2
 pip install gradio==5.49.0
+# set TORCH_CUDA_ARCH_LIST
+export TORCH_CUDA_ARCH_LIST="9.0+PTX"
+pip install git+https://github.com/nerfstudio-project/gsplat.git
 # Pay attention to choosing the appropriate version. Here is torch 2.7.0 and cuda 12.8
 pip install kaolin==0.18.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.7.0_cu128.html
 ```
