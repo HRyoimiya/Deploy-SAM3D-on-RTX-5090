@@ -46,8 +46,8 @@ pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https
 ```bash
 pip install flash_attn==2.8.3
 
-# ⚠️⚠️⚠️This .whl document of pytorch3d is placed at the end. 
-pip install pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl
+# You can install this .whl document of pytorch3d
+pip install https://github.com/HRyoimiya/Deploy-SAM3D-on-RTX-5090/releases/download/pytorch3d-whl/pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl
 
 # You can also compile pytorch3d directly from the source code. 👉 https://github.com/facebookresearch/pytorch3d
 ```
@@ -67,11 +67,7 @@ pip install kaolin==0.18.0 -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/t
 # install xFormers
 pip install xformers==0.0.30
 # You can also choose other appropriate version on https://github.com/facebookresearch/xformers/releases
-
 ```
-## PyTorch3D Wheel Download
-👉 [Download pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl](https://github.com/HRyoimiya/Deploy-SAM3D-on-RTX-5090/releases/download/pytorch3d-whl/pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl)
-
 
 ## Verify Installation
 ```bash
