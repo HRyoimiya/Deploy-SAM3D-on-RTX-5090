@@ -45,7 +45,7 @@ pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https
 
 ```bash
 pip install flash_attn==2.8.3
-# ⚠️This .whl document of pytorch3d is placed at the end. 
+# ⚠️⚠️⚠️This .whl document of pytorch3d is placed at the end. 
 pip install pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl
 
 # You can also compile pytorch3d directly from the source code. 👉 https://github.com/facebookresearch/pytorch3d
