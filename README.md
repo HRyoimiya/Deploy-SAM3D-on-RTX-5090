@@ -51,6 +51,7 @@ pip install flash_attn==2.8.3
 pip install https://github.com/HRyoimiya/Deploy-SAM3D-on-RTX-5090/releases/download/pytorch3d-whl/pytorch3d-0.7.9-cp311-cp311-linux_x86_64.whl
 
 # You can also compile pytorch3d directly from the source code. 👉 https://github.com/facebookresearch/pytorch3d
+# You can also find other versions .whl documents 👉 https://miropsota.github.io/torch_packages_builder/pytorch3d/
 ```
 
 ### 4. Install Inference Dependencies (including kaolin, gsplat, seaborn and gradio)
